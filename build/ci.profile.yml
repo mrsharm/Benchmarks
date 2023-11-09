@@ -47,7 +47,7 @@ profiles:
     agents: 
       application:
         endpoints: 
-          - http://asp-citrine-win:5001
+          - http://asp-perf-win:5001
         aliases:
           - main
 
@@ -148,7 +148,7 @@ profiles:
     agents:
       load:
         endpoints: 
-          - http://asp-citrine-load2:5001
+          - http://asp-perf-load2:5001
         aliases:
           - warmup
           - secondary
